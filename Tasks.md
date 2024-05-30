@@ -90,3 +90,19 @@
 - https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javap.html
 - https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-6.html
 - https://github.com/Col-E/Recaf
+
+# Task-6: 
+- Взять сортировку из предыдущего задания
+- Реализовать 5 пустых классов с 5 пустыми методами.
+- Все скомпилировать, засунуть в jar
+
+- Натравить proguard и сделать, чтобы:
+  - Ничего не произошло
+  - proguard сделал все что мог - все вырезал и обфусцировал
+  - не трогал некоторые классы по имени
+  - не трогал некоторые методы по имени
+  - не трогал некоторые методы по сигнатуре
+
+Потом посмотреть-показать что будет в javap и recaf
+
+Ссылка: https://www.guardsquare.com/proguard
